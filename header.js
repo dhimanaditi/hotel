@@ -60,8 +60,7 @@ li {
         <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="destination.html">Destination</a></li>
-        <li><a href="Dining.html">Dinings</a></li>
-        <li><a href="wedding.html">Weddings</a></li>
+        <li><a href="service.html">Services</a></li>
         </ul>
         </div>
         <div class="center">
@@ -71,12 +70,16 @@ li {
 
         <ul>
         <li><a href="about-us.html">About Us</a></li>
-        <li><a href="service.html">Services</a></li>
+        
         <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="#">Special Offers</a></li>
+        <li><a href="offers.html" data-toggle = 'modal'
+        data-target = "#my_division">Special Offers</a></li>
         </ul>
         </div>
         </div>
+
+        
+
     `;
   }
 }

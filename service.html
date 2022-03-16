@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./header.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>     
     <title>Services</title>
     <link rel="stylesheet" href="service.css">
 </head>
@@ -14,18 +19,44 @@
     <div class="heading">
         <h1>
         Services</h1>
-        </div>
+    </div>
         <div class="another-des">
         <div class="left-des">
         <ul>
         <li>
-        <a href="service.html" class="active">Home</a></li>
+        <a href="service.html" class="active" data-toggle = 'modal'
+                    data-target = "#my_division">Home</a></li>
           <li><a href="#">Rooms</a></li>
           <li><a href="#">Medical</a></li>
           <li><a href="#">Free Wi-Fi</a></li>
           <li><a href="#">Gaming/a></li>
         </ul>
         </div>
+        </div>
+        <div id = "my_division" 
+             class="modal fade"
+             data-keyboard = 'false'
+             data-backdrop = 'static'>
+            <div class="modal-dialog modal-sm modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Services </h5> 
+                        <button class="close" data-dismiss = 'modal'>&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        
+                                <h5>All Services will be provided soon</h5>
+                            </div>
+                        
+                    </div>
+                   <!-- <div class="modal-footer">
+                        
+                        <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+
     <my-footer></my-footer>
 </body>
 </html>

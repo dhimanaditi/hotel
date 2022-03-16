@@ -26,6 +26,8 @@
   .container {
     position: relative;
     display: none;
+    margin-bottom:5px;
+    width:100%;
   }
   
   /* Expanding image text */
@@ -45,4 +47,10 @@
     color: white;
     font-size: 35px;
     cursor: pointer;
+  }
+  .another-des{
+    display:flex;
+  }
+  .center-des{
+    padding:17px;
   }
