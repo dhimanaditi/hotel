@@ -55,28 +55,33 @@ class MyHeader extends HTMLElement {
   }
   
   </style>
-      <div class="outer">
-          <div class="lyt">
-          <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="destination.html">Destination</a></li>
-          <li><a href="service.html">Services</a></li>
-          </ul>
-          </div>
-          <div class="center">
-          <img src="oberoi-home-logo.png">
-          </div>
-          <div class="ryt">
+  <div class="outer navbar navbar-light bg-light text-dark navbar-expand-lg ">
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#my_options">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="lyt collapse navbar-collapse" id="my_options">
+            <ul class="navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="destination.html" class="nav-link">Destination</a></li>
+            <li class="nav-item"><a href="service.html" class="nav-link">Services</a></li>
+            </ul>
+            </div>
+            <div class="center">
+            <img src="oberoi-home-logo.png">
+            </div>
+            <div class="ryt collapse navbar-collapse" id="my_options">
+    
+            <ul class="navbar-nav">
+            <li class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
+            
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+            <li class="nav-item"><a href="offers.html" class="nav-link" data-toggle = 'modal'
+            data-target = "#my_division">Special Offers</a></li>
+            </ul>
+            </div>
+            </div>
   
-          <ul>
-          <li><a href="about-us.html">About Us</a></li>
-          
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="offers.html" data-toggle = 'modal'
-          data-target = "#my_division">Special Offers</a></li>
-          </ul>
-          </div>
-          </div>
+  
   
           
   
